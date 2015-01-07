@@ -1,0 +1,100 @@
+/* * {
+	outline: 1px solid red;
+}
+*/
+html, body {
+	height: 100%;
+	background-color: rgba(221, 221, 221, 1);
+	margin: 40px;
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	height: 100%;
+	margin: 30px;
+	padding: 30px 30px 0;
+	background-color: rgba(255, 255, 255, 1);
+
+}
+
+.red {
+	background: rgba(208, 2, 27, 1);
+}
+
+.blue {
+	background: rgba(74, 144, 226, 1);
+}
+
+.grey {
+	background: rgba(74, 74, 74, 1);
+}
+
+.main__nav {
+	width: 100%;
+	height: 15%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.box {
+	width: 30%;
+	height: 100%;
+}
+
+.main {
+	width: 100%;
+	height: 45%;
+}
+
+.main__text {
+	margin: 0 15px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+.bottom {
+	margin: 0 15px;
+	height: 100%;
+}
+
+.bottom__small {
+	width: 33.33%;
+	height: 100%;
+	float: left;
+}
+
+.bottom__big {
+	width: 66.66%;
+	height: 100%;
+	float: right;
+}
+
+.footer {
+	width: 100%;
+	height: 15%;
+	margin: 25px 0;
+}
+
+.footer__big {
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+
+.footer__med {
+	width: 25%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+
+.footer__small {
+	width: 55%;
+	height: 100%;
+	position: relative;
+	left: 25%;
+}
